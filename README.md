@@ -25,13 +25,22 @@ A serverless coding practice tracker built on AWS.
 
 ## Progress
 
-- [ ] Day 1: Project setup
-- [ ] Day 2: Backend APIs
-- [ ] Day 3: DynamoDB design
+- [x] Day 1: Project setup ✅
+- [x] Day 2: Backend APIs — Lambda functions written and validated ✅
+- [ ] Day 3: DynamoDB + First deployment to AWS
 - [ ] Day 4: Frontend
 - [ ] Day 5: Recommendation engine
 - [ ] Day 6: Security + monitoring
 - [ ] Day 7: Final deployment
+
+## What's Built So Far
+
+### Backend (Day 2)
+
+- ✅ SAM template with API Gateway, Lambda, DynamoDB
+- ✅ `createSession` Lambda with validation
+- ✅ `listSessions` Lambda with stats aggregation
+- ✅ Local test events ready for deployment testing
 
 ## Author
 
